@@ -1,0 +1,50 @@
+---
+output: html_document
+---
+Reproducing Data Visualization Project #1
+===
+By: Mitali Sathaye and Saqib Ali
+
+
+
+
+**The first step is to source all the libraries you will need for the project:**
+```{r}
+source("../.rProfile", echo = TRUE)
+```
+
+
+**For our first plot, we graphed the frequency of the number of days it took for the packages to be delivered. The most common delivery time was seven days.**
+```{r}
+source("../01 Data/PartA.R", echo = TRUE)
+source("../02 Visualizations/PlotsA.R", echo = TRUE)
+```
+
+**For our second plot, we measuered the number of people from each state. After analyzing our plot we saw that the most number of customers were from California.**
+```{r}
+source("../01 Data/PartB.R", echo = TRUE)
+source("../02 Visualizations/PlotsB.R", echo = TRUE)
+```
+
+**For our third plot we measured which item was most frequently ordered. The most ordered item was item no 1.**
+```{r}
+source("../01 Data/PartC.R", echo = TRUE)
+source("../02 Visualizations/PlotsC.R", echo = TRUE)
+```
+
+**For our last plot we determined the average price each artist was selling his or her product. The lowest priced (on average) were The Ubernerds and Jess Idie.**
+```{r}
+source("../01 Data/PartD.R", echo = TRUE)
+source("../02 Visualizations/PlotsD.R", echo = TRUE)
+```
+
+
+**In order to replicate graphs provided to us we used the following script:**
+```{r}
+source("../01 Data/PartE.R", echo = TRUE)
+source("../02 Visualizations/PlotsE.R", echo = TRUE)
+```
+
+
+
+

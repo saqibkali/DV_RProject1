@@ -1,0 +1,1 @@
+ggplot(dfc1, aes(x = ITEM_ID, y = NUMBER_OF_TIMES_ORDERED)) + geom_point()

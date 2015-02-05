@@ -1,0 +1,1 @@
+ggplot(dfb1, aes(x = CUSTOMER_STATE, y = PEOPLE_FROM_STATE)) + geom_point()

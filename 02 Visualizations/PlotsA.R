@@ -1,0 +1,1 @@
+ggplot(dfa1, aes(x = NUMBER_OF_DAYS, y = OCCURANCES)) + geom_point()
